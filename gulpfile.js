@@ -14,9 +14,9 @@ gulp.task('info', function() {
 gulp.task('help', function() {
   console.log("===================================================");
   console.log("HELP!");
-  console.log("===================================================");
+  console.log("---------------------------------------------------");
   console.log("TASK | DESCRIPTION");
-  console.log("===================================================");
+  console.log("---------------------------------------------------");
   console.log("info | Show info about this project");
   console.log("===================================================");
 });
