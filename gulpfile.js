@@ -33,8 +33,8 @@ gulp.task('server', ['css', 'js'], function () {
     proxy: 'boilerplate.dev'
   });
 
-  gulp.watch('./src/assets/scss/**/*.scss', ['css']).('change', browerSync.reload);
-  gulp.watch('.src/assets/js/src/**/*.js', ['js']).('change', browerSync.reload);
+  gulp.watch('./src/assets/scss/**/*.scss', ['css']).on('change', browerSync.reload);
+  gulp.watch('.src/assets/js/src/**/*.js', ['js']).on('change', browerSync.reload);
 });
 
 gulp.task('watch', function () {
