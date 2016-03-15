@@ -14,5 +14,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/RxVolonte/boilerplate.dev/issues"
+  },
+  "devDependencies": {
+    "gulp": "~3.9.1"
   }
 }
